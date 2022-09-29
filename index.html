@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="Pagina interattiva" content="pagina interattiva" />
+    <title>Layout pagina interattiva</title>
+    <script src="https://kit.fontawesome.com/671abf387b.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>La mia Agenda di viaggio</h1>
+      <div id="nav-bar">
+        <button class="icon-navbar" onclick="dropDown()"><i class="fa-solid fa-bars"></i></button>
+        <ul id="list" class="menu list">
+          <li><a href="#">Home</a></li>
+          <li><a href="#blog">Il mio blog</a></li>
+          <li><a href="#bozza">Bozza blog</a></li>
+          <li><a href="#ways">Itinerari</a></li>
+          <li><a href="#see">Cose da vedere</a></li>
+          <li><a href="#todo">Lista ToDo viaggio</a></li>
+        </ul>
+      </div>
+    </header>
+    <section id="blog">
+      <h2>Bozza da sistemare del mio blog</h2>
+      <button onclick="font('bold')"><i class="fa-solid fa-bold"></i></button>
+      <button onclick="font('italic')"><i class="fa-solid fa-italic"></i></button>
+      <button onclick="font('underline')""><i class="fa-solid fa-underline"></i></button>
+      <input type="color" id="input-color" onchange="color()" />
+      <div id="blogarea" class="bgarea">
+        Ho scelto di partire nuovamente. E’ una delle mie passioni preferite. Questa volta i miei passi hanno raggiunto un piccolo villaggio di pescatori ubicato ad Est dell’isola di Bali, Amed. Mi
+        trovo qui perché qui ho scelto di svolgere parte della mia tesi in Antropologia della Nascita. Sono arrivata tre mesi fa e nessuna delle persone che ora riempiono le mie giornate, sapeva chi
+        fossi. Mi sono armata di sana e robusta pazienza, ho tessuto con cura nuovi legami. Ho cercato di introdurre me stessa entro i ritmi e le consuetudini sociali che organizzano la vita di una
+        donna locale. Grazie all’arrivo delle bidan tutti concordano sul fatto che ora il parto sia molto più sicuro, perché loro sanno come fermare le emorragie ed agire in caso di bisogno. Se non vi
+        sono complicazioni durante la gravidanza le nascite avvengono in una stanzetta adiacente alla casa dell’ostetrica. In caso contrario le mamme vengono indirizzate nel più vicino ospedale, a
+        circa 20 km. Vicino alla madre, durante tutto il travaglio, possono stare i suoi familiari, le è permesso di bere e mangiare ogni volta che vuole e la bidan non pratica alcuna visita interna
+        limitandosi a massaggiare e tastare con le proprie mani il ventre della donna per assicurarsi che la posizione del bambino sia corretta. Qualche volta ascolta il battito del piccolo o della
+        piccola e poi esce dalla stanza per farvi ritorno ad intervalli di circa un’ora per valutare la dilatazione raggiunta. Ad oggi ho assistito a diverse nascite e credo siano stati fra gli attimi
+        più emozionanti della mia vita. Anche per questo motivo non ricevono lo stesso trattamento dei maschi. Questi ultimi, invece, vengono ritenuti indispensabili al fine di un buon matrimonio al
+        punto da far scegliere alle coppie di procreare sino a quando non ne mettono al mondo almeno uno. Tornando alla placenta; il lato sinistro viene culturalmente associato agli spiriti malvagi e
+        alla sporcizia. Con la mano sinistra non è buon costume mangiare, né salutare le altre persone, con la mano sinistra ci si pulisce dopo essere andati in bagno. La sinistra è il lato scuro e
+        sgradevole dell’esistenza. Curioso che proprio lì vengano sepolte le sorelline di ogni nuova nata. Scoprire e studiare sono altre due mie grandi passioni che mi permettono di vivere
+        continuando a farmi domande. Credo sia molto importante dare la possibilità al nostro io di non accontentarsi di ciò che sappiamo.
+      </div>
+    </section>
+    <section id="todo">
+      <div class="note">Passaporto</div>
+      <div class="note">Visti</div>
+      <div class="note">Valigia</div>
+      <div class="note">Biglietti aerei</div>
+      <div class="note">Prenotazione hotel</div>
+    </section>
+    <script src="./js/script.js"></script>
+  </body>
+</html>

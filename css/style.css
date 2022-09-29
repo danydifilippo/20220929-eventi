@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    width: 100vw;
+    height: 100vh;
+}
+
+header {
+    height: 600px;
+    width: 100vw;
+    background-image: url(../img/blogger-in-vacanza.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#nav-bar a {
+    text-decoration: none;
+    color: #2E2E2E;
+}
+#nav-bar {
+    position: relative;
+}
+.list {
+    display: none;
+}
+ul {
+    list-style-type: none;
+    position: absolute;
+    z-index: 10;
+    background-color: rgba(240, 255, 249, 0.901);
+}
+li {
+    padding: 10px 0px;
+    text-transform: uppercase;
+}
+li:hover {
+    border-bottom: 2px solid green;
+}
+#nav-bar button {
+    border: none;
+    color: green;
+    margin-left: 40px;
+}
+
+#todo {
+    margin: 3em;
+}
+
+#blog {
+    margin-left: 3em;
+}
+
+#blog h2 {
+    font-size: 40px;
+}
+
+#blog i {
+    width: 25px;
+    height: 25px;
+    font-size: 20px;
+    padding-top: 3px;
+}
+
+#blogarea {
+    width: 90%;
+    margin: 2em 3em;
+}
+
+#color {
+    width: 10px;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}

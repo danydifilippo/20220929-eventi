@@ -2,18 +2,30 @@
     box-sizing: border-box;
 }
 
+
 body {
     font-family: 'Poppins', sans-serif;
     width: 100vw;
     height: 100vh;
+    margin: 0;
 }
 
 header {
-    height: 600px;
+    height: 70%;
     width: 100vw;
     background-image: url(../img/blogger-in-vacanza.jpeg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:cover;
+    margin: 0;
+    object-fit: cover;
+}
+
+h1 {
+    font-size: 70px;
+    color: rgb(0, 92, 0);
+    display: inline-flex;
+    margin-top: 490px;
+    margin-left: 1em;
 }
 
 #nav-bar a {
@@ -22,6 +34,7 @@ header {
 }
 #nav-bar {
     position: relative;
+    margin-left: 2em;
 }
 .list {
     display: none;
@@ -30,7 +43,9 @@ ul {
     list-style-type: none;
     position: absolute;
     z-index: 10;
-    background-color: rgba(240, 255, 249, 0.901);
+    background-color: rgba(219, 255, 240, 0.901);
+    left: 40px;
+
 }
 li {
     padding: 10px 0px;
@@ -43,6 +58,9 @@ li:hover {
     border: none;
     color: green;
     margin-left: 40px;
+    font-size: 25px;
+    border: 2px solid green;
+    border-radius: 20%;
 }
 
 #todo {
@@ -53,7 +71,7 @@ li:hover {
     margin-left: 3em;
 }
 
-#blog h2 {
+h2 {
     font-size: 40px;
 }
 
@@ -83,4 +101,8 @@ li:hover {
 
 .italic {
     font-style: italic;
+}
+
+#todo {
+    padding: 3em 4em 4em 3em;
 }
